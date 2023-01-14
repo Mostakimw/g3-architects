@@ -405,6 +405,12 @@ footer {
         position: static;
         margin-top: 15px;
     }
+
+    .newsletter {
+        margin: 0 -15px 0 -15px;
+        padding: 50px 15px;
+    }
+
     footer {
         margin: 100px 0 0 0;
     }
