@@ -383,3 +383,29 @@ footer {
     }
 
 }
+
+@media screen and (min-width: 577px) and (max-width: 992px) {
+    .header {
+        padding: 50px 25px;
+    }
+
+    main {
+        margin: 0 25px;
+    }
+    .feature-list-section, .loving-feature-section {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .loving-feature-section img {
+        width: 100%;
+    }
+
+    .experience-btn {
+        position: static;
+        margin-top: 15px;
+    }
+    footer {
+        margin: 100px 0 0 0;
+    }
+}
