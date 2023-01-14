@@ -25,6 +25,8 @@
     color: #727272;
 }
 
+
+
 .btn-primary {
     font-weight: 600;
     font-size: 20px;
@@ -35,6 +37,7 @@
     border: none;
     border-radius: 8px;
 }
+
 
 .btn-primary:hover {
     cursor: pointer;
@@ -245,6 +248,44 @@ main {
     color: #727272;
 }
 
+/* newsletter styles  */
+
+.newsletter {
+    padding: 140px 240px;
+    background-color: #131313;
+    margin: 0 -240px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.font-tertiary {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    color: #ffffffda;
+}
+
+.newsletter-content {
+    max-width: 55%;
+}
+
+.newsletter h1 {
+    color: #ffffff;
+    font-weight: 500;
+    margin: 30px 0;
+}
+
+.newsletter input[type="email"] {
+    border-radius: 8px;
+    border: none;
+    padding: 21px 24px;
+    font-size: 20px;
+    color: #727272;
+    margin: 0 20px 20px 0;
+}
+
 /* sponsor styles  */
 
 .sponsor-details {
@@ -271,10 +312,12 @@ main {
     filter: grayscale(100%);
 }
 
+
+
 /* footer styles  */
 
 footer {
-    margin-top: 130px;
+    margin: 130px 240px 150px;
     background-color: #FFF4E7;
 }
 
@@ -311,19 +354,32 @@ footer {
     .loving-feature-section img {
         width: 100%;
     }
+
     .experience-btn {
         position: static;
         margin-top: 15px;
     }
+
     .sponsor-section {
         margin-top: 100px;
     }
+
     .sponsor-section .logo {
         flex-wrap: wrap;
         gap: 15px;
     }
-    /* .website-name {
-        font-size: 5px;
-    } */
+
+    .newsletter {
+        margin: 200px -15px 0 -15px;
+        padding: 50px 15px;
+    }
+
+    .newsletter-content {
+        max-width: 100%;
+    }
+
+    footer {
+        margin: 0;
+    }
 
 }
