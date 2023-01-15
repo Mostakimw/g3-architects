@@ -1,8 +1,6 @@
-/* fonts  */
 /* google fonts  */
 
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700;800&display=swap');
-
 
 /* common styles or utilities  */
 
@@ -25,8 +23,6 @@
     color: #727272;
 }
 
-
-
 .btn-primary {
     font-weight: 600;
     font-size: 20px;
@@ -37,7 +33,6 @@
     border: none;
     border-radius: 8px;
 }
-
 
 .btn-primary:hover {
     cursor: pointer;
@@ -203,21 +198,6 @@ main {
     max-width: 540px;
 }
 
-/* .facts-lists {
-    display: flex;
-    gap: 20px;
-    justify-content: space-around;
-}
-
-.fact-list {
-    width: 200px;
-    height: 200px;
-    padding: 40px 0;
-    text-align: center;
-    border: 1px solid #FF900E;
-    border-radius: 8px;
-} */
-
 .facts-lists {
     margin-top: 100px;
     display: grid;
@@ -233,6 +213,11 @@ main {
     align-items: center;
     border: 1px solid #FF900E;
     border-radius: 8px;
+    transition: background-color 2s, color 1s;
+}
+
+.fact-list:hover {
+    background-color: #FF900E;
 }
 
 .facts-lists p {
@@ -312,8 +297,6 @@ main {
     filter: grayscale(100%);
 }
 
-
-
 /* footer styles  */
 
 footer {
@@ -392,6 +375,7 @@ footer {
     main {
         margin: 0 25px;
     }
+
     .feature-list-section, .loving-feature-section {
         flex-direction: column;
         justify-content: center;
